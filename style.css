@@ -1,0 +1,161 @@
+/* Styles for the custom header */
+.custom-header {
+    background-color: #842323;
+    color: #d88d8d;
+    font: bolder;
+    padding: 20px;
+    text-align: center;
+}
+
+.custom-header .custom-header-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custom-header .custom-logo {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.custom-header .custom-menu-button {
+    background: none;
+    border: none;
+    color: #fff;
+}
+
+/* Styles for the custom hero section */
+.custom-hero {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.custom-hero .custom-hero-inner {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.custom-hero .custom-hero-title {
+    font-size: 36px;
+    color: #ffffff;
+}
+
+.custom-hero .custom-hero-description {
+    font-size: 18px;
+    color: rgb(186, 163, 163);
+}
+
+/* Styles for the custom buttons */
+.custom-btn {
+    
+    padding: 10px 20px;
+    text-decoration: none;
+
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.custom-primary-btn {
+    background-color: #651d1d;
+    color: #fff;
+    border:none;
+    margin-right:20px;
+    border-radius:10px; 
+}
+.custom-primary-btn:hover{
+    background-color:#fff;
+    color:#651d1d;
+    margin-right:20px;
+}
+
+.custom-secondary-btn {
+    background-color: #0e0b0b;
+    color: #fff;
+    border:none;
+    border-radius:10px;  
+}
+.custom-secondary-btn:hover{
+    background-color:#fff;
+    color:#0e0b0b;
+}
+
+.addcard{
+    background-color: #651d1d;
+    color: #fff;
+    border-radius:10px;
+}
+.addcard:hover{
+    background-color:#fff;
+    color:#651d1d;
+}
+/* Styles for the custom album section */
+.custom-album {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.custom-album .custom-album-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Styles for the custom cards */
+.custom-card {
+    background-color: #040404;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    max-width: 300px;
+}
+
+.custom-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.custom-card .custom-card-title {
+    font-size: 24px;
+    color: #ffdfdf;
+}
+
+.custom-card .custom-card-description {
+    font-size: 16px;
+    color: #e4b8b8;
+    margin-bottom: 20px;
+}
+
+/* Styles for the custom footer */
+.custom-footer {
+    background-color: #842323;
+    color: #000000;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+.custom-footer .custom-footer-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.custom-footer .custom-footer-text {
+    font-size: 14px;
+}
+
+.custom-footer .custom-footer-link {
+    color: #007bff;
+    text-decoration: none;
+}
+.custom-hero{
+    background-color:rgb(16, 1, 1);
+}
