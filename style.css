@@ -1,6 +1,6 @@
 
 *{
-
+    scroll-behavior: smooth;
 }
 /* Styles for the custom header */
 .custom-header {
@@ -23,6 +23,10 @@
     transition:color 0,8s;
     margin-left:88px;
     
+}
+.about .fa-bars{
+    position: absolute;
+    left:1090px;
 }
 .about:hover{
     color:#000000;
